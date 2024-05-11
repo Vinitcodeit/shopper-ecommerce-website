@@ -32,15 +32,16 @@ justify-content: center;
 
 .offers-left button{
     width: 222px;
-    height: 200px;
+    height: 300px;
     border-radius: 35px;
     background: #ff4141;
     border: none;
     color: white;
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
     margin-top: 30px;
     cursor: pointer;
+    padding: 12px;
 }
 
 .offers-right{
@@ -69,6 +70,7 @@ justify-content: center;
         width: 220px;
         height: 50px;
         font-size: 18px;
+
     }
     .offers-right {
         padding-top: 30px;
@@ -94,6 +96,7 @@ justify-content: center;
         width: 160px;
         height: 40px;
         font-size: 16px;
+        padding: 0px;
     }
     .offers-right{
         padding-top: 10px;
@@ -122,9 +125,9 @@ justify-content: center;
 
 @media(max-width:500px){
     .offers{
-        margin-bottom: 50px;
-        height: 25vh;
-        margin-top: 70px;
+        margin-bottom: 70px;
+        height: 22vh;
+        margin-top: 119px;
     }
     .offers-left h1{
         font-size: 16px;
